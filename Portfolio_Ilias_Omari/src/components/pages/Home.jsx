@@ -16,9 +16,10 @@ const Home = () => {
       <div className="ilias-name">
         <h1>Ilias Omari</h1>
       </div>
-      <div className="scroll">
-        <img src={scroll} alt="scroll button" />
-      </div>
+
+      <button className="scroll">
+        <img className="scroll-img" src={scroll} alt="scroll button" />
+      </button>
     </>
   );
 };

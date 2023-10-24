@@ -41,14 +41,10 @@
 .scroll {
   display: flex;
   justify-content: center;
+
   cursor: pointer;
   margin-top: 108px;
   margin-left: 180px;
-  padding: 0.4rem;
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-  width: 25px;
-  height: 35px;
   background-color: #ffd310;
   border: 0.1rem solid #000000;
   border-radius: 0.4rem;
