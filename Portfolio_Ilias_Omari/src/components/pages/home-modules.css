@@ -41,13 +41,20 @@
 .scroll {
   display: flex;
   justify-content: center;
-
+  align-items: center;
   cursor: pointer;
   margin-top: 108px;
   margin-left: 180px;
+  width: 50px;
+  height: 50px;
+
   background-color: #ffd310;
   border: 0.1rem solid #000000;
   border-radius: 0.4rem;
   box-shadow: 0.2rem 0.2rem 0 #000000;
   cursor: pointer;
+}
+.scroll-img {
+  width: 30px;
+  height: 30px;
 }
