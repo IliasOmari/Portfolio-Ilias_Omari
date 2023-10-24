@@ -1,6 +1,7 @@
 import Navbar from "../Navbar";
 import buttons from "../../assets/buttons.png";
-import "./home-modules.css"
+import scroll from "../../assets/scroll.png";
+import "./home-modules.css";
 
 const Home = () => {
   return (
@@ -10,9 +11,13 @@ const Home = () => {
         <div className="buttons">
           <img src={buttons} alt="Buttons" />
         </div>
-        <div className="ilias">
-<img src="" alt="" />
-        </div>
+        <div className="ilias"></div>
+      </div>
+      <div className="ilias-name">
+        <h1>Ilias Omari</h1>
+      </div>
+      <div className="scroll">
+        <img src={scroll} alt="scroll button" />
       </div>
     </>
   );
