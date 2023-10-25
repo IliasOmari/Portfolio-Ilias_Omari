@@ -40,9 +40,8 @@ const Home = () => {
               development.
               <br /> <br />
               Inside my portfolio, I invite you to explore my passion for
-              crafting seamless, visually stunning digital experiences.
-              <br /> <br /> Let's collaborate and bring your digital dreams to
-              life.
+              crafting seamless, visually stunning digital experiences. Let's
+              collaborate and bring your digital dreams to life.
             </p>
           </div>
           <button className="download">Download my CV</button>
