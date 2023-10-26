@@ -3,17 +3,21 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 90px;
+  margin-bottom: 30px;
 }
 .title h1 {
   text-align: center;
   font-size: 30px;
 }
+.skill-boxes {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
 
 .skill-design {
-  margin-top: 50px;
-  margin-left: 40px;
   width: 340px;
   height: 130px;
   background-color: white;
@@ -47,8 +51,6 @@ h2 {
 }
 
 .skill-code {
-  margin-top: 50px;
-  margin-left: 40px;
   width: 340px;
   height: 130px;
   background-color: white;
@@ -79,9 +81,6 @@ h2 {
 }
 
 .skill-motion {
-  margin-top: 50px;
-  margin-left: 40px;
-  margin-bottom: 20px;
   width: 340px;
   height: 130px;
   background-color: white;
