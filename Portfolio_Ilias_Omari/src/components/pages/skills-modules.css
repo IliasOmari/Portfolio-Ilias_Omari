@@ -108,3 +108,21 @@ h2 {
   justify-content: center;
   margin-top: -22px;
 }
+
+@media (min-width: 768px) {
+  .skill-design-title,
+  .skill-motion-title,
+  .skill-code-title {
+    left: 41%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .skill-design-title,
+  .skill-motion-title,
+  .skill-code-title {
+    left: 43.5%;
+  }
+
+  
+}
