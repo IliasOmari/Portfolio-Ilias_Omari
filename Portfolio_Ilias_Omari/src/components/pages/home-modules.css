@@ -44,7 +44,7 @@
   width: 200px;
   height: 70px;
   position: absolute;
-  top: 42%;
+  top: 55%;
   right: 20px;
   bottom: 250px;
   background-color: #009fe3;
@@ -63,10 +63,9 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 43%;
+  left: 30%;
   cursor: pointer;
   margin-top: 100px;
-  margin-bottom: 200px;
   width: 150px;
   height: 50px;
   background-color: #ffd310;
@@ -80,13 +79,13 @@
   height: 30px;
 }
 .ilias-about {
-  margin-top: 40px;
+  margin-top: 132px;
   margin-left: 40px;
   width: 340px;
   background-color: white;
   border: 1px solid black;
   box-shadow: 0.2rem 0.2rem 0 #000000;
-  margin-bottom: 20px;
+  margin-bottom: 65px;
 }
 
 .about-text {
