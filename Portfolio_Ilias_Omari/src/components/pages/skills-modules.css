@@ -1,24 +1,18 @@
 .title {
-  width: 180px;
-  height: 70px;
-  background-color: #ffd310;
-  border: 1px solid black;
-  box-shadow: 0.2rem 0.2rem 0 #000000;
-  position: absolute;
-  left: 28%;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 .title h1 {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .skill-design {
-  margin-top: 150px;
+  margin-top: 50px;
   margin-left: 40px;
   width: 340px;
   height: 130px;
@@ -41,7 +35,7 @@
   margin-top: -22px;
 }
 h2 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .skill-design-logos {
@@ -77,7 +71,7 @@ h2 {
 }
 
 .skill-code-logos {
-  margin-top: 30px;
+  margin-top: 37px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -85,7 +79,7 @@ h2 {
 }
 
 .skill-motion {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-left: 40px;
   margin-bottom: 20px;
   width: 340px;
@@ -96,9 +90,22 @@ h2 {
 }
 
 .skill-motion-logos {
-  margin-top: 30px;
+  margin-top: 37px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 10px;
+}
+.skill-motion-title {
+  width: 137px;
+  height: 49px;
+  background-color: #ffd310;
+  border: 1px solid black;
+  box-shadow: 0.2rem 0.2rem 0 #000000;
+  position: absolute;
+  left: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -22px;
 }

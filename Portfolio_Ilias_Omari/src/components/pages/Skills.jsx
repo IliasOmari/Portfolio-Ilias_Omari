@@ -9,6 +9,8 @@ import Kotlin from "../../assets/kotlin.svg";
 import Premiere from "../../assets/premiere-pro.svg";
 import AfterEffects from "../../assets/after-effects.svg";
 import MediaEncoder from "../../assets/media-encoder.svg";
+import VueJS from "../../assets/vuejs.svg";
+
 import Navbar from "../Navbar";
 
 const Skills = () => {
@@ -41,10 +43,14 @@ const Skills = () => {
             <img src={Javascript} alt="Javascript" />
             <img src={ReactJS} alt="ReactJS" />
             <img src={Kotlin} alt="Kotlin" />
+            <img src={VueJS} alt="VueJS" />
           </div>
         </div>
 
         <div className="skill-motion">
+          <div className="skill-motion-title">
+            <h2>Motion</h2>
+          </div>
           <div className="skill-motion-logos">
             <img src={Premiere} alt="Premiere Pro" />
             <img src={AfterEffects} alt="After Effects" />
