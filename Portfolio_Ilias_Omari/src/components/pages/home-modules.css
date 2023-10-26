@@ -73,6 +73,8 @@
   border-radius: 0.4rem;
   box-shadow: 0.2rem 0.2rem 0 #000000;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 .scroll-img {
   width: 30px;
@@ -85,7 +87,7 @@
   background-color: white;
   border: 1px solid black;
   box-shadow: 0.2rem 0.2rem 0 #000000;
-  margin-bottom: 65px;
+  margin-bottom: 144px;
 }
 
 .about-text {
@@ -168,5 +170,8 @@
   .download {
     font-weight: bolder;
     font-size: 16px;
+  }
+  .scroll {
+    display: none;
   }
 }
