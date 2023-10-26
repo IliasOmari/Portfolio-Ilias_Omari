@@ -1,0 +1,104 @@
+.title {
+  width: 180px;
+  height: 70px;
+  background-color: #ffd310;
+  border: 1px solid black;
+  box-shadow: 0.2rem 0.2rem 0 #000000;
+  position: absolute;
+  left: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.title h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.skill-design {
+  margin-top: 150px;
+  margin-left: 40px;
+  width: 340px;
+  height: 130px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0.2rem 0.2rem 0 #000000;
+}
+
+.skill-design-title {
+  width: 137px;
+  height: 49px;
+  background-color: #ffd310;
+  border: 1px solid black;
+  box-shadow: 0.2rem 0.2rem 0 #000000;
+  position: absolute;
+  left: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -22px;
+}
+h2 {
+  font-size: 18px;
+}
+
+.skill-design-logos {
+  margin-top: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.skill-code {
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 340px;
+  height: 130px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0.2rem 0.2rem 0 #000000;
+}
+
+.skill-code-title {
+  width: 137px;
+  height: 49px;
+  background-color: #ffd310;
+  border: 1px solid black;
+  box-shadow: 0.2rem 0.2rem 0 #000000;
+  position: absolute;
+  left: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -22px;
+}
+
+.skill-code-logos {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.skill-motion {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  width: 340px;
+  height: 130px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0.2rem 0.2rem 0 #000000;
+}
+
+.skill-motion-logos {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}

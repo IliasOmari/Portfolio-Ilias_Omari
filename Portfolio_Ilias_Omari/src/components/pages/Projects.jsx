@@ -1,12 +1,12 @@
 import Navbar from "../Navbar";
 
-const Contact = () => {
+const Projects = () => {
   return (
     <>
       <Navbar />
-      <div>Contact</div>
+      <div>Projects</div>
     </>
   );
 };
 
-export default Contact;
+export default Projects;

@@ -3,6 +3,7 @@ import "./navbar-modules.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import logo from "../assets/logo-2.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   useEffect(() => {
@@ -31,38 +32,46 @@ const Navbar = () => {
         {isOpen && (
           <div className="menu" data-aos="fade-right">
             <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">Skills</a>
-              </li>
-              <li>
-                <a href="#">Projects</a>
-              </li>
-              <li id="contact-button">
-                <a href="#">Contact</a>
-              </li>
+              <Link to={"/"}>
+                <li>
+                  <a>Home</a>
+                </li>
+              </Link>
+              <Link to={"/skills"}>
+                <li>
+                  <a>Skills</a>
+                </li>
+              </Link>
+              <Link to={"/projects"}>
+                <li>
+                  <a>Projects</a>
+                </li>
+              </Link>
+
+              <Link to={"/contact"}>
+                <li id="contact-button">
+                  <a>Contact</a>
+                </li>
+              </Link>
             </ul>
           </div>
         )}
       </div>
       <div className="navigation">
-      <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">Skills</a>
-              </li>
-              <li>
-                <a href="#">Projects</a>
-              </li>
-              <li id="contact-button">
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Skills</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li id="contact-button">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
   );

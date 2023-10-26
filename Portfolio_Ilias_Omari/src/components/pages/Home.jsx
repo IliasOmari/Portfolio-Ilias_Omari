@@ -1,10 +1,16 @@
 import Navbar from "../Navbar";
 import buttons from "../../assets/buttons.png";
-// import scroll from "../../assets/scroll.png";
+import scroll from "../../assets/scroll.png";
 import "./home-modules.css";
 import Me from "../../assets/ilias-remove.png";
+import { useRef } from "react";
 
 const Home = () => {
+  const ref = useRef(null);
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <Navbar />
@@ -22,26 +28,27 @@ const Home = () => {
         <div className="ilias-name">
           <h1>Ilias Omari</h1>
         </div>
-        {/* <button className="scroll">
+        <button onClick={handleClick} className="scroll">
+          <h2>About Me</h2>
           <img className="scroll-img" src={scroll} alt="scroll button" />
-        </button> */}
+        </button>
       </div>
 
       <div className="ilias-about">
         <div className="buttons-cv">
           <img src={buttons} alt="Buttons" />
         </div>
-        <div className="context">
+        <div ref={ref} className="context">
           <div className="about-text">
             <br /> <br />
             <p>
-              Welcome to my portfolio! I'm Ilias, a Multimedia and Creative
+              Welcome to my portfolio! I{"'"}m Ilias, a Multimedia and Creative
               Technologies student, specializing in UX/UI design and
               development.
               <br /> <br />
               Inside my portfolio, I invite you to explore my passion for
-              crafting seamless, visually stunning digital experiences. Let's
-              collaborate and bring your digital dreams to life.
+              crafting seamless, visually stunning digital experiences. Let{"'"}
+              s collaborate and bring your digital dreams to life.
             </p>
           </div>
           <button className="download">Download my CV</button>

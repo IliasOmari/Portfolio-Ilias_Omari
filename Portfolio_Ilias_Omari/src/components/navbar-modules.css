@@ -1,7 +1,4 @@
 .hamburger-menu {
-  /* position: absolute;
-    top: 10px;
-    right: 10px; */
   z-index: 6;
   visibility: visible;
   margin-right: 20px;
@@ -91,10 +88,16 @@ a {
 
 .header {
   width: 100%;
-  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0.1rem 0.1rem 0.6rem rgb(0 0 0 / 20%);
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+  backface-visibility: hidden;
 }
 .navigation {
   display: none;
@@ -107,6 +110,7 @@ a {
   .menu {
     right: 0;
     width: 735px;
+    z-index: 7;
   }
   a {
     font-size: 18px;

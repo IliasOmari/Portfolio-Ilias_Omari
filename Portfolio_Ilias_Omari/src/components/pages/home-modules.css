@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .ilias-image {
@@ -44,7 +44,7 @@
   width: 200px;
   height: 70px;
   position: absolute;
-  top: 80%;
+  top: 42%;
   right: 20px;
   bottom: 250px;
   background-color: #009fe3;
@@ -58,7 +58,7 @@
   text-align: center;
   font-size: 20px;
 }
-/* .scroll {
+.scroll {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,7 +67,7 @@
   cursor: pointer;
   margin-top: 100px;
   margin-bottom: 200px;
-  width: 50px;
+  width: 150px;
   height: 50px;
   background-color: #ffd310;
   border: 0.1rem solid #000000;
@@ -78,7 +78,7 @@
 .scroll-img {
   width: 30px;
   height: 30px;
-} */
+}
 .ilias-about {
   margin-top: 40px;
   margin-left: 40px;
@@ -86,7 +86,9 @@
   background-color: white;
   border: 1px solid black;
   box-shadow: 0.2rem 0.2rem 0 #000000;
+  margin-bottom: 20px;
 }
+
 .about-text {
   padding: 10px;
 }
