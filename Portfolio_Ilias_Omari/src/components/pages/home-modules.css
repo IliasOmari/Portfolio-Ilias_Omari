@@ -179,4 +179,26 @@
   .scroll {
     display: none;
   }
+
+  @media (min-width: 1024px) {
+    .ilias-image {
+      width: 380px;
+      height: 380px;
+    }
+
+    .ilias-name {
+      width: 384px;
+      height: 114px;
+      left: 45%;
+    }
+    .ilias-name h1 {
+      font-size: 35px;
+    }
+
+    .ilias-about {
+      width: 851px;
+      margin-left: 85px;
+      margin-bottom: 20px;
+    }
+  }
 }

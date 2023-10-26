@@ -124,5 +124,25 @@ h2 {
     left: 43.5%;
   }
 
-  
+  .title {
+    margin-top: 130px;
+  }
+  .title h1 {
+    font-size: 40px;
+  }
+
+  .skill-boxes {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+  }
+
+  .skill-design,
+  .skill-code,
+  .skill-motion {
+    width: 400px;
+    height: 220px;
+  }
 }
