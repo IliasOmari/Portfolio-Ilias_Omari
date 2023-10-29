@@ -85,7 +85,6 @@
 }
 .ilias-about {
   margin-top: 132px;
-  margin-left: 40px;
   width: 340px;
   background-color: white;
   border: 1px solid black;
@@ -93,6 +92,10 @@
   margin-bottom: 130px;
 }
 
+.presentation-text {
+  display: flex;
+  justify-content: center;
+}
 .about-text {
   padding: 10px;
 }
@@ -197,7 +200,6 @@
 
     .ilias-about {
       width: 851px;
-      margin-left: 85px;
       margin-bottom: 20px;
     }
   }
