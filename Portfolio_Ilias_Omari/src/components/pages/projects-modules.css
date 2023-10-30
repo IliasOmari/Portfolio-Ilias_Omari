@@ -58,7 +58,7 @@
   box-shadow: 0.1rem 0.1rem 0 #000000;
 }
 
-p {
+.project-categories p {
   font-size: 12px;
   font-weight: bold;
 }
