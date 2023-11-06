@@ -123,29 +123,32 @@
   .navigation {
     display: none;
   }
+}
 
-  @media (min-width: 1024px) {
-    .logo img {
-      width: 40%;
-    }
+@media (min-width: 1024px) {
+  .logo img {
+    width: 47%;
+  }
 
-    .hamburger-icon {
-      display: none;
-    }
-    .menu {
-      display: none;
-    }
-    .navigation {
-      display: initial;
-    }
-    ul {
-      display: flex;
-      width: 400px;
-      margin-right: 40px;
-      justify-content: space-between;
-      list-style-type: none;
-    }
+  .hamburger-icon {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .navigation {
+    display: initial;
+  }
+  ul {
+    display: flex;
+    width: 400px;
+    margin-right: 40px;
+    justify-content: space-between;
+    list-style-type: none;
+  }
 
-   
+  .navigation ul a {
+    text-decoration: none;
+    color: black;
   }
 }

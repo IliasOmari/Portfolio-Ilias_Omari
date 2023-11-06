@@ -164,8 +164,13 @@
 
   @media (min-width: 1024px) {
     .ilias-image {
-      width: 380px;
-      height: 380px;
+      width: 370px;
+      height: 370px;
+    }
+
+    .image {
+      width: 370px;
+      height: 370px;
     }
 
     .ilias-name {

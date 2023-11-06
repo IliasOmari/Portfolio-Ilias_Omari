@@ -49,21 +49,24 @@ const Navbar = () => {
           </div>
         )}
       </div>
+
+
       <div className="navigation">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Skills</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <li id="contact-button">
-            <a href="#">Contact</a>
-          </li>
-        </ul>
+      <ul>
+              <Link to={"/"}>
+                <p id="home-button-desktop">Home</p>
+              </Link>
+              <Link to={"/skills"}>
+                <p id="skills-button-desktop">Skills</p>
+              </Link>
+              <Link to={"/projects"}>
+                <p id="projects-button-desktop">Projects</p>
+              </Link>
+
+              <Link to={"/contact"}>
+                <p id="contact-button-desktop">Contact</p>
+              </Link>
+            </ul>
       </div>
     </div>
   );
