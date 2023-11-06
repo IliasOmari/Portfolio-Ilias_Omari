@@ -33,25 +33,17 @@ const Navbar = () => {
           <div className="menu" data-aos="fade-right">
             <ul>
               <Link to={"/"}>
-                <li>
-                  <a>Home</a>
-                </li>
+                <p id="home-button">Home</p>
               </Link>
               <Link to={"/skills"}>
-                <li>
-                  <a>Skills</a>
-                </li>
+                <p id="skills-button">Skills</p>
               </Link>
               <Link to={"/projects"}>
-                <li>
-                  <a>Projects</a>
-                </li>
+                <p id="projects-button">Projects</p>
               </Link>
 
               <Link to={"/contact"}>
-                <li id="contact-button">
-                  <a>Contact</a>
-                </li>
+                <p id="contact-button">Contact</p>
               </Link>
             </ul>
           </div>

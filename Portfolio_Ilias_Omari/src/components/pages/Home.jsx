@@ -1,8 +1,7 @@
 import Navbar from "../Navbar";
-import buttons from "../../assets/buttons.png";
 import scroll from "../../assets/scroll.png";
 import "./home-modules.css";
-import Me from "../../assets/ilias-remove.png";
+import Me from "../../assets/me.png";
 import { useRef } from "react";
 
 const Home = () => {
@@ -16,9 +15,6 @@ const Home = () => {
       <Navbar />
       <div className="presentation">
         <div className="ilias-image">
-          <div className="buttons">
-            <img src={buttons} alt="Buttons" />
-          </div>
           <div className="ilias">
             <div className="image">
               <img src={Me} />
@@ -36,12 +32,8 @@ const Home = () => {
 
       <div className="presentation-text">
         <div className="ilias-about">
-          <div className="buttons-cv">
-            <img src={buttons} alt="Buttons" />
-          </div>
           <div ref={ref} className="context">
             <div className="about-text">
-              <br /> <br />
               <p>
                 Welcome to my portfolio! I{"'"}m Ilias, a Multimedia and
                 Creative Technologies student, specializing in UX/UI design and

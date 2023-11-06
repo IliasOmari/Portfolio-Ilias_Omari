@@ -17,69 +17,38 @@
   gap: 3rem;
 }
 
-.skill-design {
-  width: 340px;
-  height: 130px;
-  background-color: white;
-  border: 1px solid black;
-  box-shadow: 0.2rem 0.2rem 0 #000000;
-}
-
-.skill-design-title {
+.skill-design-title,
+.skill-code-title,
+.skill-motion-title {
   width: 137px;
   height: 49px;
   background-color: #ffd310;
   border: 1px solid black;
   box-shadow: 0.2rem 0.2rem 0 #000000;
-  position: absolute;
-  left: 33%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -22px;
+  position: relative;
+  left: 30%;
 }
+
 h2 {
   font-size: 16px;
 }
 
-.skill-design-logos {
-  margin-top: 37px;
+.skill-design-logos,
+.skill-code-logos,
+.skill-motion-logos {
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 10px;
 }
 
-.skill-code {
-  width: 340px;
-  height: 130px;
-  background-color: white;
-  border: 1px solid black;
-  box-shadow: 0.2rem 0.2rem 0 #000000;
-}
-
-.skill-code-title {
-  width: 137px;
-  height: 49px;
-  background-color: #ffd310;
-  border: 1px solid black;
-  box-shadow: 0.2rem 0.2rem 0 #000000;
-  position: absolute;
-  left: 33%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -22px;
-}
-
-.skill-code-logos {
-  margin-top: 37px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 10px;
-}
-
+.skill-code,
+.skill-design,
 .skill-motion {
   width: 340px;
   height: 130px;
@@ -88,32 +57,38 @@ h2 {
   box-shadow: 0.2rem 0.2rem 0 #000000;
 }
 
-.skill-motion-logos {
-  margin-top: 37px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 10px;
-}
-.skill-motion-title {
-  width: 137px;
-  height: 49px;
-  background-color: #ffd310;
-  border: 1px solid black;
-  box-shadow: 0.2rem 0.2rem 0 #000000;
-  position: absolute;
-  left: 33%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -22px;
-}
-
 @media (min-width: 768px) {
   .skill-design-title,
   .skill-motion-title,
   .skill-code-title {
-    left: 41%;
+  left: 11%;
+  }
+
+  .skill-boxes {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+
+  .skill-design,
+  .skill-code,
+  .skill-motion {
+    width: 180px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .skill-design-logos,
+  .skill-code-logos,
+  .skill-motion-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
   }
 }
 
@@ -121,7 +96,7 @@ h2 {
   .skill-design-title,
   .skill-motion-title,
   .skill-code-title {
-    left: 43.5%;
+    left: 28%;
   }
 
   .title {
@@ -133,16 +108,22 @@ h2 {
 
   .skill-boxes {
     margin-top: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 3rem;
+    gap: 1rem;
   }
 
   .skill-design,
   .skill-code,
   .skill-motion {
-    width: 400px;
+    width: 310px;
     height: 220px;
+  }
+
+  .skill-design-logos,
+  .skill-code-logos,
+  .skill-motion-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 140px;
   }
 }
