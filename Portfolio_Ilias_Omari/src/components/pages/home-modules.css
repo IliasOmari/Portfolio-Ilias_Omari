@@ -126,6 +126,7 @@
     display: none;
   }
   .ilias-about {
+    margin-top: -81px;
     padding-top: 50px;
   }
   .ilias-about p {
