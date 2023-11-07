@@ -116,6 +116,9 @@
 }
 
 @media (min-width: 768px) {
+  .presentation {
+    margin-top: 100px;
+  }
   .ilias-about {
     width: 704px;
   }
@@ -134,13 +137,13 @@
   }
 
   .ilias-name {
-    top: 55%;
+    top: 67%;
     left: 50%;
     width: 310px;
-    height: 95px;
+    height: 80px;
   }
   .ilias-name h1 {
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,7 +155,7 @@
     right: 10%;
   }
   .welcome-text h1 {
-    font-size: 30px;
+    font-size: 27px;
   }
   .download {
     font-weight: bolder;
@@ -161,30 +164,53 @@
   .scroll {
     display: none;
   }
+  .ilias-about p {
+    font-size: 14px;
+  }
+  .download {
+    font-size: 14px;
+  }
+}
 
-  @media (min-width: 1024px) {
-    .ilias-image {
-      width: 370px;
-      height: 370px;
-    }
+@media (min-width: 1024px) {
+  .ilias-image {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+  }
 
-    .image {
-      width: 370px;
-      height: 370px;
-    }
+  .image {
+    width: 400px;
+    height: 400px;
+  }
 
-    .ilias-name {
-      width: 384px;
-      height: 114px;
-      left: 45%;
-    }
-    .ilias-name h1 {
-      font-size: 35px;
-    }
+  .ilias-name {
+    width: 384px;
+    height: 114px;
+    top: 64%;
+    left: 47%;
+  }
+  .ilias-name h1 {
+    font-size: 35px;
+  }
 
-    .ilias-about {
-      width: 851px;
-      margin-bottom: 20px;
-    }
+  .ilias-about {
+    width: 1000px;
+    margin-bottom: 20px;
+  }
+
+  .ilias-about p {
+    font-size: 20px;
+  }
+  .download {
+    font-size: 14px;
+  }
+
+  .welcome-text {
+    top: 30%;
+    right: 15%;
+  }
+  .welcome-text h1 {
+    font-size: 45px;
   }
 }

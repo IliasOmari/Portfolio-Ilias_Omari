@@ -6,6 +6,7 @@ import NftUniverse from "../../assets/nft-universe.png";
 import MultiPahrma from "../../assets/multipharma.jpg";
 import JEF from "../../assets/JEF.jpg";
 import PopArt from "../../assets/popart.png";
+import Motion from "../../assets/motion.png";
 
 const projects = [
   {
@@ -37,6 +38,14 @@ const projects = [
     img: PopArt,
     subtitle: "personal project",
     categorie: "Design & Development",
+    link: "https://pop-art.onrender.com/project/pop-art",
+  },
+
+  {
+    title: "The history of money",
+    img: Motion,
+    subtitle: "personal project",
+    categorie: "Motion graphics",
     link: "https://pop-art.onrender.com/project/pop-art",
   },
 ];

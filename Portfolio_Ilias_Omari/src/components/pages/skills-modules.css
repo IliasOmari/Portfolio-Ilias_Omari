@@ -69,7 +69,7 @@ h2 {
 #aftereffects,
 #encoder {
   width: 48px;
-  height:48px;
+  height: 48px;
 }
 
 @media (min-width: 768px) {
@@ -128,8 +128,9 @@ h2 {
   }
 
   .skill-boxes {
+    display: flex;
     margin-top: 70px;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .skill-design,
