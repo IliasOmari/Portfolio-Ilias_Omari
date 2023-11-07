@@ -107,6 +107,12 @@
   display: none;
 }
 
+@media (max-width: 375px) {
+  .menu {
+    width: 349px;
+  }
+}
+
 @media (min-width: 768px) {
   .logo img {
     width: 50%;
