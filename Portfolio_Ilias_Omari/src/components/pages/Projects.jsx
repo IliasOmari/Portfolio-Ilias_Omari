@@ -3,6 +3,9 @@ import "./skills-modules.css";
 import "./projects-modules.css";
 import Card from "../Card";
 import NftUniverse from "../../assets/nft-universe.png";
+import MultiPahrma from "../../assets/multipharma.jpg";
+import JEF from "../../assets/JEF.jpg";
+import PopArt from "../../assets/popart.png";
 
 const projects = [
   {
@@ -14,16 +17,30 @@ const projects = [
 
   {
     title: "Multipharma",
-    img: NftUniverse,
+    img: MultiPahrma,
     categorie: "Design UX/UI",
     link: "https://xd.adobe.com/view/4e2ffad9-b0bc-4a22-8a0f-9ae144c5baf8-1b7c/",
   },
 
   {
     title: "JEF Festival",
-    img: NftUniverse,
+    img: JEF,
     categorie: "Design UX/UI",
-    link: "https://xd.adobe.com/view/4e2ffad9-b0bc-4a22-8a0f-9ae144c5baf8-1b7c/",
+    link: "https://xd.adobe.com/view/f71a3ccb-5b6f-44b1-98b1-68340019a25c-a249/",
+  },
+
+  {
+    title: "Pop-Art",
+    img: PopArt,
+    categorie: "Design & Development",
+    link: "https://pop-art.onrender.com/project/pop-art",
+  },
+
+  {
+    title: "Pop-Art",
+    img: PopArt,
+    categorie: "Design & Development",
+    link: "https://pop-art.onrender.com/project/pop-art",
   },
 ];
 

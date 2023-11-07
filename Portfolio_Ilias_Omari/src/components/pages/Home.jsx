@@ -3,6 +3,7 @@ import scroll from "../../assets/scroll.png";
 import "./home-modules.css";
 import Me from "../../assets/me.png";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const ref = useRef(null);
@@ -44,7 +45,10 @@ const Home = () => {
                 {"'"}s collaborate and bring your digital dreams to life.
               </p>
             </div>
-            <button className="download">Download my CV</button>
+
+            <Link to={`https://cv-ilias-omari.tiiny.site/`} target="_blank">
+              <button className="download">Download my CV</button>
+            </Link>
           </div>
         </div>
 
