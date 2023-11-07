@@ -1,19 +1,24 @@
-import NftUniverse from "./../assets/nft-universe.png";
+/* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import "./pages/projects-modules.css";
 
-const Card = () => {
+const Card = (props) => {
+  console.log(props);
   return (
     <div className="project">
       <div className="projectImg">
-        <img src={NftUniverse} alt="project of Nft Universe" />
+        <img src={props.img} />
       </div>
       <div className="projectInformation">
         <div className="text">
-        <h2>NFT Universe</h2>
-        <p>Design & Development</p>
+          <h2>{props.title}</h2>
+          <p>{props.categorie}</p>
         </div>
+
         <div className="button">
+          <Link to={props.link} target="_blank">
             <button>Discover</button>
+          </Link>
         </div>
       </div>
     </div>
