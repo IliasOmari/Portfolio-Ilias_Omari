@@ -48,7 +48,14 @@
 .projectInformation h2 {
   font-size: 18px;
 }
+.text {
+  line-height: 6px;
+}
 
 .projectInformation p {
   font-size: 12px;
+
+}
+.bold {
+  font-weight: bold;
 }

@@ -57,11 +57,26 @@ h2 {
   box-shadow: 0.2rem 0.2rem 0 #000000;
 }
 
+#illustrator,
+#photoshop,
+#xd,
+#indesign,
+#javascript,
+#react,
+#kotlin,
+#vue,
+#premiere,
+#aftereffects,
+#encoder {
+  width: 48px;
+  height:48px;
+}
+
 @media (min-width: 768px) {
   .skill-design-title,
   .skill-motion-title,
   .skill-code-title {
-  left: 11%;
+    left: 11%;
   }
 
   .skill-boxes {
@@ -81,7 +96,6 @@ h2 {
     flex-direction: column;
   }
 
-
   .skill-design-logos,
   .skill-code-logos,
   .skill-motion-logos {
@@ -96,7 +110,14 @@ h2 {
   .skill-design-title,
   .skill-motion-title,
   .skill-code-title {
-    left: 28%;
+    left: 18%;
+    width: 250px;
+  }
+
+  .skill-design-title h2,
+  .skill-motion-title h2,
+  .skill-code-title h2 {
+    font-size: 18px;
   }
 
   .title {
@@ -114,16 +135,32 @@ h2 {
   .skill-design,
   .skill-code,
   .skill-motion {
-    width: 310px;
-    height: 220px;
+    width: 400px;
+    height: 230px;
   }
 
   .skill-design-logos,
   .skill-code-logos,
   .skill-motion-logos {
     display: flex;
+    padding: 20px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 140px;
+  }
+
+  #illustrator,
+  #photoshop,
+  #xd,
+  #indesign,
+  #javascript,
+  #react,
+  #kotlin,
+  #vue,
+  #premiere,
+  #aftereffects,
+  #encoder {
+    width: 80px;
+    height: 80px;
   }
 }

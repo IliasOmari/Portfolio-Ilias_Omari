@@ -12,7 +12,9 @@ const Card = (props) => {
       <div className="projectInformation">
         <div className="text">
           <h2>{props.title}</h2>
-          <p>{props.categorie}</p>
+          <p>{props.subtitle}</p>
+          <br />
+          <p className="bold">{props.categorie}</p>
         </div>
 
         <div className="button">

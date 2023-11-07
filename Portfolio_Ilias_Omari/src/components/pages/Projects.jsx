@@ -11,6 +11,7 @@ const projects = [
   {
     title: "NFT Universe",
     img: NftUniverse,
+    subtitle: "personal project",
     categorie: "Design & Development",
     link: "https://ehb-mct.github.io/web-2-frontend-22-23-IliasOmari/dist/index.html",
   },
@@ -18,6 +19,7 @@ const projects = [
   {
     title: "Multipharma",
     img: MultiPahrma,
+    subtitle: "Collab with In The Pocket",
     categorie: "Design UX/UI",
     link: "https://xd.adobe.com/view/4e2ffad9-b0bc-4a22-8a0f-9ae144c5baf8-1b7c/",
   },
@@ -25,6 +27,7 @@ const projects = [
   {
     title: "JEF Festival",
     img: JEF,
+    subtitle: "Collab with JEF Festival",
     categorie: "Design UX/UI",
     link: "https://xd.adobe.com/view/f71a3ccb-5b6f-44b1-98b1-68340019a25c-a249/",
   },
@@ -32,13 +35,7 @@ const projects = [
   {
     title: "Pop-Art",
     img: PopArt,
-    categorie: "Design & Development",
-    link: "https://pop-art.onrender.com/project/pop-art",
-  },
-
-  {
-    title: "Pop-Art",
-    img: PopArt,
+    subtitle: "personal project",
     categorie: "Design & Development",
     link: "https://pop-art.onrender.com/project/pop-art",
   },

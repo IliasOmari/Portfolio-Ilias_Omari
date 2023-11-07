@@ -60,7 +60,7 @@
   height: 50px;
   cursor: pointer;
   font-size: 14px;
-  background: #e7275c;;
+  background: #e7275c;
   border: 0.1rem solid #000000;
   border-radius: 0.4rem;
   font-weight: 800;
@@ -78,4 +78,24 @@
 
 .link {
   font-weight: 800;
+}
+
+.form-image {
+  display: none;
+}
+
+@media (min-width: 1024px){
+  .form-image {
+    display: block;
+  }
+  .form-image img {
+    width: 390px;
+    
+  }
+
+  .contact{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
 }

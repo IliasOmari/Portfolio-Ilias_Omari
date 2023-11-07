@@ -133,7 +133,10 @@
 
 @media (min-width: 1024px) {
   .logo img {
-    width: 47%;
+    width: 50%;
+  }
+  .logo img{
+    width: 250px;
   }
 
   .hamburger-icon {
