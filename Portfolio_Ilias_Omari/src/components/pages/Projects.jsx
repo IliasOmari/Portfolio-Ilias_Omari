@@ -11,6 +11,7 @@ import Kasteel from "../../assets/kasteel.png";
 
 const projects = [
   {
+    id: "NFT",
     title: "NFT Universe",
     img: NftUniverse,
     subtitle: "personal project",
@@ -19,6 +20,7 @@ const projects = [
   },
 
   {
+    id: "MLT",
     title: "Multipharma",
     img: MultiPahrma,
     subtitle: "Collab with In The Pocket",
@@ -27,6 +29,8 @@ const projects = [
   },
 
   {
+    id: "JEF",
+
     title: "JEF Festival",
     img: JEF,
     subtitle: "Collab with JEF Festival",
@@ -35,6 +39,7 @@ const projects = [
   },
 
   {
+    id: "POP",
     title: "Pop-Art",
     img: PopArt,
     subtitle: "personal project",
@@ -43,6 +48,7 @@ const projects = [
   },
 
   {
+    id: "MONEY",
     title: "The history of money",
     img: Motion,
     subtitle: "personal project",
@@ -51,6 +57,7 @@ const projects = [
   },
 
   {
+    id: "CASTLE",
     title: "Castle of Gaasbeek",
     img: Kasteel,
     subtitle: "personal project",
@@ -69,7 +76,7 @@ const Projects = () => {
 
       <div className="project-cards">
         {projects.map((el, index) => (
-          <div key={index}>
+          <div id={el.id} key={index}>
             <Card {...el} />
           </div>
         ))}

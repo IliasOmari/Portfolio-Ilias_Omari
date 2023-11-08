@@ -59,20 +59,42 @@
   font-weight: bold;
 }
 
-@media(min-width:768px){
-
-  .project-cards{
+@media (min-width: 768px) {
+  .project-cards {
     flex-direction: row;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
   }
 }
-
-
 
 @media (min-width: 1024px) {
   .project-cards {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: auto;
+
+    grid-template-areas:
+      "NFT . MLT"
+      ". JEF ."
+      "POP . MONEY"
+      ". GSB .";
+  }
+
+  #NFT {
+    grid-area: NFT;
+  }
+  #MLT {
+    grid-area: MLT;
+  }
+  #JEF {
+    grid-area: JEF;
+  }
+  #POP {
+    grid-area: POP;
+  }
+  #MONEY {
+    grid-area: MONEY;
+  }
+
+  #CASTLE {
+    grid-area: GSB;
+
   }
 }
