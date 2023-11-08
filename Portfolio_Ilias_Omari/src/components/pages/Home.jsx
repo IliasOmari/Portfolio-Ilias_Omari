@@ -8,11 +8,11 @@ import logo from "../../assets/logo-1.svg";
 
 const Home = () => {
   const ref = useRef(null);
-  const [isLoaded, setIsLoaded] = useState(true);
   const handleClick = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const [isLoaded, setIsLoaded] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setIsLoaded(false);
