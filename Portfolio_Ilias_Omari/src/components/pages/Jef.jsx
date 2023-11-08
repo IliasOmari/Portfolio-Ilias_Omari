@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
 
-
-const JEF = () => {
+const Jef = () => {
   return (
     <>
-     <Navbar/>
+      <Navbar />
       <div className="project-info">
         <div className="video">
           <iframe id="video" src=""></iframe>
@@ -35,5 +34,4 @@ const JEF = () => {
   );
 };
 
-export default JEF;
-
+export default Jef;
