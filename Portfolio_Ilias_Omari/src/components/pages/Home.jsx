@@ -5,6 +5,7 @@ import Me from "../../assets/me.png";
 import { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo-1.svg";
+import { motion } from "framer-motion";
 
 const Home = () => {
   const ref = useRef(null);
@@ -29,23 +30,56 @@ const Home = () => {
         <>
           <Navbar />
           <div className="presentation">
-            <div className="ilias-image">
+            <motion.div
+              className="ilias-image"
+              initial={{ opacity: 0, x: -200 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ ease: "easeOut", duration: 0.5 }}
+              viewport={{ once: true }}
+              drag
+              dragConstraints={{
+                top: -5,
+                left: -5,
+                right: 5,
+                bottom: 5,
+              }}
+            >
               <div className="ilias">
                 <div className="image">
                   <img src={Me} />
                 </div>
               </div>
-            </div>
-            <div className="ilias-name">
+            </motion.div>
+
+            <motion.div
+              className="ilias-name"
+              initial={{ opacity: 0, x: 200 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ ease: "easeOut", duration: 0.5 }}
+              viewport={{ once: true }}
+            >
               <h1>Ilias Omari</h1>
-            </div>
-            <button onClick={handleClick} className="scroll">
+            </motion.div>
+            <motion.button
+              onClick={handleClick}
+              className="scroll"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
               <h2>About Me</h2>
               <img className="scroll-img" src={scroll} alt="scroll button" />
-            </button>
+            </motion.button>
           </div>
+
           <div className="presentation-text">
-            <div className="ilias-about">
+            <motion.div
+              className="ilias-about"
+              initial={{ opacity: 0, y: 200 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ ease: "easeOut", duration: 0.5 }}
+              viewport={{ once: true }}
+            >
               <div ref={ref} className="context">
                 <div className="about-text">
                   <div className="br">
@@ -66,10 +100,17 @@ const Home = () => {
                 </div>
 
                 <Link to={`https://cv-ilias-omari.tiiny.site/`} target="_blank">
-                  <button className="download">Download my CV</button>
+                  <motion.button
+                    className="download"
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                  >
+                    Download my CV
+                  </motion.button>
                 </Link>
               </div>
-            </div>
+            </motion.div>
 
             <div className="welcome-text">
               <h1>Hi 👋🏻, I am </h1>
