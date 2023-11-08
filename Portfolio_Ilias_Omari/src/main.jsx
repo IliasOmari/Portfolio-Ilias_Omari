@@ -5,16 +5,17 @@ import Skills from "./components/pages/Skills.jsx";
 import Projects from "./components/pages/Projects.jsx";
 import Contact from "./components/pages/Contact.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./components/pages/Home.jsx";
 import Money from "./components/pages/Money.jsx";
 import Castle from "./components/pages/Castle.jsx";
 import Jef from "./components/pages/Jef.jsx";
+import Home from "./components/pages/Home.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
   },
+
   {
     path: "/skills",
     element: <Skills />,

@@ -131,6 +131,25 @@ body {
   display: none;
 }
 
+.bottom > img {
+  margin-top: 65%;
+  width: 150px;
+  height: 150px;
+  animation: identifier 1.5s ease infinite;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes identifier {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media (min-width: 768px) {
   .presentation {
     margin-top: 100px;
@@ -185,6 +204,10 @@ body {
   }
   .download {
     font-size: 14px;
+  }
+
+  .bottom > img {
+    margin-top: 35%;
   }
 }
 
@@ -247,5 +270,10 @@ body {
 
   .br {
     display: flex;
+  }
+  .bottom > img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20%;
   }
 }
