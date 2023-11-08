@@ -30,7 +30,6 @@ const projects = [
 
   {
     id: "JEF",
-
     title: "JEF Festival",
     img: JEF,
     subtitle: "Collab with JEF Festival",
