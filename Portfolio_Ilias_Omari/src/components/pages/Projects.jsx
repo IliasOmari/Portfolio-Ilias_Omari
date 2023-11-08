@@ -60,7 +60,7 @@ const projects = [
     title: "Castle of Gaasbeek",
     img: Kasteel,
     subtitle: "personal project",
-    categorie: "Drones & Motion graphics",
+    categorie: "Drones & Motion ",
     link: "/projects/castel-of-gaasbeek",
   },
 ];

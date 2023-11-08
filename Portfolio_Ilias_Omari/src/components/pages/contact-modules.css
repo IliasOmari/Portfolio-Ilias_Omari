@@ -12,6 +12,7 @@
   border: 1px solid black;
   width: 350px;
   box-shadow: 0.2rem 0.2rem 0 #000000;
+  background-color: white;
 }
 
 .sub_title {
@@ -84,32 +85,27 @@
   display: none;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
   .form-image {
     display: block;
   }
   .form-image img {
     width: 390px;
-    
   }
 
-  .contact{
+  .contact {
     display: flex;
     justify-content: space-evenly;
   }
-  .form_area{
+  .form_area {
     width: 500px;
     height: 500px;
   }
 
-  .form_style{
+  .form_style {
     width: 405px;
   }
-  .form_style-message{
+  .form_style-message {
     width: 405px;
   }
-
- 
-  
-
 }
