@@ -59,16 +59,20 @@
   font-weight: bold;
 }
 
-@media (min-width: 1024px) {
-  /* .project {
-    grid-area: item1;
+@media(min-width:768px){
+
+  .project-cards{
+    flex-direction: row;
+    flex-wrap:wrap ;
   }
+}
+
+
+
+@media (min-width: 1024px) {
   .project-cards {
     display: grid;
     grid-template-columns: 400px 400px 400px;
     grid-template-rows: auto;
-    grid-template-areas:
-      "item1 . item1"
-      ". item1 .";
-  } */
+  }
 }

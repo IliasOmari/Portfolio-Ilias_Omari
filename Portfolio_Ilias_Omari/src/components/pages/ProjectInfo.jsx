@@ -1,6 +1,7 @@
 // import JEF from "../../assets/JEF.jpg";
 import "./projectinfo-modules.css";
 import Navbar from "../Navbar";
+import { Link } from "react-router-dom";
 
 const ProjectInfo = () => {
   return (
@@ -22,6 +23,11 @@ const ProjectInfo = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="button-redirect">
+        <Link to={"/projects"}>
+          <button className="backbutton">Back to projects</button>
+        </Link>
       </div>
     </>
   );

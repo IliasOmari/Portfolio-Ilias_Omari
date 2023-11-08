@@ -1,3 +1,5 @@
+
+
 .presentation {
   display: flex;
   position: relative;
@@ -89,6 +91,10 @@
   text-align: center;
 }
 
+.br {
+  display: none;
+}
+
 .download {
   background-color: #e7275c;
   border: 0.1rem solid #000000;
@@ -174,20 +180,26 @@
 
 @media (min-width: 1024px) {
   .ilias-image {
-    width: 400px;
-    height: 400px;
-    margin-left: 100px;
+    margin-top: 50px;
+    display: block;
+    position: fixed;
+    top: 7%;
+    left: 10%;
+    width: 380px;
+    height: 380px;
   }
 
   .image {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
   }
 
   .ilias-name {
+    display: block;
+    position: fixed;
     width: 384px;
     height: 114px;
-    top: 64%;
+    top: 40%;
     left: 47%;
   }
   .ilias-name h1 {
@@ -207,10 +219,23 @@
   }
 
   .welcome-text {
-    top: 30%;
-    right: 15%;
+    display: block;
+    position: fixed;
+    top: 24%;
+    right: 16%;
   }
   .welcome-text h1 {
     font-size: 45px;
+  }
+  .presentation-text {
+    display: block;
+    position: fixed;
+    top: 58%;
+    left: 15%;
+    z-index: -1;
+  }
+
+  .br {
+    display: flex;
   }
 }

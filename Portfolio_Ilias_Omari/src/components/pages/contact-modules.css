@@ -97,5 +97,19 @@
     display: flex;
     justify-content: space-evenly;
   }
+  .form_area{
+    width: 500px;
+    height: 500px;
+  }
+
+  .form_style{
+    width: 405px;
+  }
+  .form_style-message{
+    width: 405px;
+  }
+
+ 
+  
 
 }

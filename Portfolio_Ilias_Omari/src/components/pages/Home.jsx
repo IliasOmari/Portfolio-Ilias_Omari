@@ -35,6 +35,11 @@ const Home = () => {
         <div className="ilias-about">
           <div ref={ref} className="context">
             <div className="about-text">
+              <div className="br">
+                <br />
+                <br />
+              </div>
+
               <p>
                 Welcome to my portfolio! I{"'"}m Ilias, a Multimedia and
                 Creative Technologies student, specializing in UX/UI design and

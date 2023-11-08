@@ -7,6 +7,7 @@ import MultiPahrma from "../../assets/multipharma.jpg";
 import JEF from "../../assets/JEF.jpg";
 import PopArt from "../../assets/popart.png";
 import Motion from "../../assets/motion.png";
+import Kasteel from "../../assets/kasteel.png";
 
 const projects = [
   {
@@ -30,7 +31,7 @@ const projects = [
     img: JEF,
     subtitle: "Collab with JEF Festival",
     categorie: "Design UX/UI",
-    link: "https://xd.adobe.com/view/f71a3ccb-5b6f-44b1-98b1-68340019a25c-a249/",
+    link: "/projects/projectinfo",
   },
 
   {
@@ -46,6 +47,14 @@ const projects = [
     img: Motion,
     subtitle: "personal project",
     categorie: "Motion graphics",
+    link: "https://pop-art.onrender.com/project/pop-art",
+  },
+
+  {
+    title: "Castle of Gaasbeek",
+    img: Kasteel,
+    subtitle: "personal project",
+    categorie: "Drones & Motion graphics",
     link: "https://pop-art.onrender.com/project/pop-art",
   },
 ];
