@@ -18,7 +18,7 @@ const Card = (props) => {
         </div>
 
         <div className="button">
-          <Link to={props.link} target="_blank">
+          <Link to={props.link}>
             <button>Discover</button>
           </Link>
         </div>
