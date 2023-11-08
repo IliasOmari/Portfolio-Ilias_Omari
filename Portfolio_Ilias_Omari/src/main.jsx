@@ -35,15 +35,13 @@ const router = createBrowserRouter([
   },
   {
     path: "/projects/jef-festival",
-    element: <JEF/>,
+    element: <JEF />,
   },
 
   {
     path: "/projects/castel-of-gaasbeek",
     element: <Castle />,
   },
-
-
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
