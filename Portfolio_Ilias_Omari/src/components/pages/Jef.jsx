@@ -1,18 +1,20 @@
-// import JEF from "../../assets/JEF.jpg";
+import { Link } from "react-router-dom";
 import "./projectinfo-modules.css";
 import Navbar from "../Navbar";
-import { Link } from "react-router-dom";
 
-const ProjectInfo = () => {
+const Jef = () => {
   return (
     <>
       <Navbar />
       <div className="project-info">
-        <div className="video">{/* <img src={JEF} alt="test" /> */}</div>
+        <div className="video">
+          <iframe id="video" src=""></iframe>
+        </div>
 
         <div className="project-info-text">
           <div className="info-text">
             <p>
+              {" "}
               JEF festival is a festival that takes place in Antwerp. The
               problem is that not everyone knows Antwerp and many people will be
               lost there. <br></br> <br></br>
@@ -33,4 +35,4 @@ const ProjectInfo = () => {
   );
 };
 
-export default ProjectInfo;
+export default Jef;

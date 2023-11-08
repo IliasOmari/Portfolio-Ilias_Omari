@@ -35,7 +35,7 @@ const projects = [
     img: JEF,
     subtitle: "Collab with JEF Festival",
     categorie: "Design UX/UI",
-    link: "/projects/projectinfo",
+    link: "/projects/jef-festival",
   },
 
   {
@@ -53,7 +53,7 @@ const projects = [
     img: Motion,
     subtitle: "personal project",
     categorie: "Motion graphics",
-    link: "https://pop-art.onrender.com/project/pop-art",
+    link: "/projects/history-of-money",
   },
 
   {
@@ -62,7 +62,7 @@ const projects = [
     img: Kasteel,
     subtitle: "personal project",
     categorie: "Drones & Motion graphics",
-    link: "https://pop-art.onrender.com/project/pop-art",
+    link: "/projects/castel-of-gaasbeek",
   },
 ];
 

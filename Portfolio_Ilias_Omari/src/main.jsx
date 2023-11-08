@@ -6,7 +6,9 @@ import Projects from "./components/pages/Projects.jsx";
 import Contact from "./components/pages/Contact.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/pages/Home.jsx";
-import ProjectInfo from "./components/pages/ProjectInfo";
+import Money from "./components/pages/Money.jsx";
+import Castle from "./components/pages/Castle.jsx";
+import Jef from "./components/pages/JEF.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,9 +30,20 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/projects/projectinfo",
-    element: <ProjectInfo />,
+    path: "/projects/history-of-money",
+    element: <Money />,
   },
+  {
+    path: "/projects/jef-festival",
+    element: <Jef />,
+  },
+
+  {
+    path: "/projects/castel-of-gaasbeek",
+    element: <Castle />,
+  },
+
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
