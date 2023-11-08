@@ -8,7 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/pages/Home.jsx";
 import Money from "./components/pages/Money.jsx";
 import Castle from "./components/pages/Castle.jsx";
-import Jef from "./components/pages/JEF.jsx";
+import JEF from "./components/pages/JEF.jsx";
 
 const router = createBrowserRouter([
   {
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/projects/jef-festival",
-    element: <Jef />,
+    element: <JEF/>,
   },
 
   {

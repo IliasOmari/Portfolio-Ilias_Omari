@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./projectinfo-modules.css";
 import Navbar from "../Navbar";
 
-const Jef = () => {
+const JEF = () => {
   return (
     <>
       <Navbar />
@@ -35,4 +35,4 @@ const Jef = () => {
   );
 };
 
-export default Jef;
+export default JEF;
