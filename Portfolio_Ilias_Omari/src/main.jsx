@@ -35,7 +35,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/projects/jef-festival",
-    element: <JEF />,
+    element: <JEF/>,
   },
 
   {

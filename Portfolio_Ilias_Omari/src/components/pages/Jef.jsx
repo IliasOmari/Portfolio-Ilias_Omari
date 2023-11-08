@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import "./projectinfo-modules.css";
 import Navbar from "../Navbar";
+
 
 const JEF = () => {
   return (
     <>
-      <Navbar />
+     <Navbar/>
       <div className="project-info">
         <div className="video">
           <iframe id="video" src=""></iframe>
