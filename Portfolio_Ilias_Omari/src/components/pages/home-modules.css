@@ -11,10 +11,6 @@ body {
   background-size: 3em 3em;
 }
 
-svg {
-  font-family: Poppins;
-}
-
 .presentation {
   display: flex;
   position: relative;

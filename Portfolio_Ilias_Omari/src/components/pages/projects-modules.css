@@ -70,31 +70,11 @@
 
 @media (min-width: 1024px) {
   .project-cards {
-    display: grid;
-    grid-template-areas:
-      "NFT . MLT"
-      ". JEF ."
-      "POP . MONEY"
-      ". GSB .";
+    display: flex;
+    justify-content: space-evenly;
   }
 
-  #NFT {
-    grid-area: NFT;
-  }
-  #MLT {
-    grid-area: MLT;
-  }
-  #JEF {
-    grid-area: JEF;
-  }
-  #POP {
-    grid-area: POP;
-  }
-  #MONEY {
-    grid-area: MONEY;
-  }
-
-  #CASTLE {
-    grid-area: GSB;
+  .project {
+    margin-bottom: 70px;
   }
 }

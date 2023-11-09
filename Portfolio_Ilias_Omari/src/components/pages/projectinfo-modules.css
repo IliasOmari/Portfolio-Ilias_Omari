@@ -98,4 +98,16 @@
     margin-top: 0px;
     width: 400px;
   }
+  .button-redirect {
+    margin-top: 30px;
+  }
+  .info-text {
+    line-height: 20px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+  .info-text h1 {
+    text-align: center;
+  }
 }

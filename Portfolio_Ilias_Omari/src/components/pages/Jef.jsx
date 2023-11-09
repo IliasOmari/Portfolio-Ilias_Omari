@@ -8,7 +8,10 @@ const Jef = () => {
       <Navbar />
       <div className="project-info">
         <div className="video">
-          <iframe id="video" src=""></iframe>
+          <iframe
+            id="video"
+            src="https://www.youtube.com/embed/qgO7LiTO_vI?&autoplay=1"
+          ></iframe>
         </div>
 
         <div className="project-info-text">

@@ -29,6 +29,7 @@ const Home = () => {
       ) : (
         <>
           <Navbar />
+
           <div className="presentation">
             <motion.div
               className="ilias-image"

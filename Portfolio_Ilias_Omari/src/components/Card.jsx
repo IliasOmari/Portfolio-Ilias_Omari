@@ -6,7 +6,13 @@ import { motion } from "framer-motion";
 const Card = (props) => {
   console.log(props);
   return (
-    <div className="project">
+    <motion.div
+      className="project"
+      initial={{ opacity: 0, x: -200 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ ease: "easeInOut", duration: 0.7 }}
+      viewport={{ once: true }}
+    >
       <div className="projectImg">
         <img src={props.img} />
       </div>
@@ -30,7 +36,7 @@ const Card = (props) => {
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

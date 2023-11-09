@@ -32,12 +32,19 @@ export default function Contact() {
   return (
     <>
       <Navbar />
+
       <div className="title">
         <h1>Contact</h1>
       </div>
 
       <div className="contact">
-        <div className="form">
+        <motion.div
+          className="form"
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ ease: "easeInOut", duration: 0.7 }}
+          viewport={{ once: true }}
+        >
           <div className="form_area">
             <form ref={form} onSubmit={sendEmail}>
               <div className="form_group">
@@ -82,11 +89,17 @@ export default function Contact() {
               </div>
             </form>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="form-image">
+        <motion.div
+          className="form-image"
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ ease: "easeInOut", duration: 0.7 }}
+          viewport={{ once: true }}
+        >
           <img src={Ilias3d} alt="picture of Ilias in 3D" />
-        </div>
+        </motion.div>
       </div>
     </>
   );
