@@ -4,7 +4,7 @@ import "./home-modules.css";
 import Me from "../../assets/me.png";
 import { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo-1.svg";
+import logo from "../../assets/logo.svg";
 import { motion } from "framer-motion";
 
 const Home = () => {
