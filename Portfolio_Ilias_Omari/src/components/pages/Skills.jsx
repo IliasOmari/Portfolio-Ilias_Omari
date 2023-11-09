@@ -10,7 +10,7 @@ import Premiere from "../../assets/premiere-pro.svg";
 import AfterEffects from "../../assets/after-effects.svg";
 import MediaEncoder from "../../assets/media-encoder.svg";
 import VueJS from "../../assets/vuejs.svg";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 import Navbar from "../Navbar";
 
@@ -24,40 +24,85 @@ const Skills = () => {
       </div>
 
       <div className="skill-boxes">
-        <div className="skill-design">
+        <motion.div
+          className="skill-design"
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ ease: "easeInOut", duration: 0.7 }}
+          viewport={{ once: true }}
+        >
           <div className="skill-design-title">
             <h2>Design</h2>
           </div>
-          <div className="skill-design-logos">
+          <motion.div
+            className="skill-design-logos"
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 1,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+          >
             <img id="illustrator" src={Illustrator} alt="Adobe Illustrator" />
             <img id="photoshop" src={Photoshop} alt="Adobe Illustrator" />
-            <img id= "xd"  src={Adobe} alt="Adobe XD" />
-            <img id= "indesign"  src={Indesign} alt="Indesign" />
-          </div>
-        </div>
+            <img id="xd" src={Adobe} alt="Adobe XD" />
+            <img id="indesign" src={Indesign} alt="Indesign" />
+          </motion.div>
+        </motion.div>
 
-        <div className="skill-code">
+        <motion.div
+          className="skill-code"
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ ease: "easeInOut", duration: 0.7 }}
+          viewport={{ once: true }}
+        >
           <div className="skill-code-title">
             <h2>Development</h2>
           </div>
-          <div className="skill-code-logos">
-            <img id= "javascript" src={Javascript} alt="Javascript" />
-            <img id= "react" src={ReactJS} alt="ReactJS" />
-            <img id= "kotlin" src={Kotlin} alt="Kotlin" />
-            <img id= "vue" src={VueJS} alt="VueJS" />
-          </div>
-        </div>
+          <motion.div
+            className="skill-code-logos"
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 1.5,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+          >
+            <img id="javascript" src={Javascript} alt="Javascript" />
+            <img id="react" src={ReactJS} alt="ReactJS" />
+            <img id="kotlin" src={Kotlin} alt="Kotlin" />
+            <img id="vue" src={VueJS} alt="VueJS" />
+          </motion.div>
+        </motion.div>
 
-        <div className="skill-motion">
+        <motion.div
+          className="skill-motion"
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ ease: "easeInOut", duration: 0.7 }}
+          viewport={{ once: true }}
+        >
           <div className="skill-motion-title">
             <h2>Motion</h2>
           </div>
-          <div className="skill-motion-logos">
-            <img id= "premiere" src={Premiere} alt="Premiere Pro" />
-            <img id= "aftereffects"  src={AfterEffects} alt="After Effects" />
-            <img id= "encoder"  src={MediaEncoder} alt="Media Encoder" />
-          </div>
-        </div>
+          <motion.div
+            className="skill-motion-logos"
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 2,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+          >
+            <img id="premiere" src={Premiere} alt="Premiere Pro" />
+            <img id="aftereffects" src={AfterEffects} alt="After Effects" />
+            <img id="encoder" src={MediaEncoder} alt="Media Encoder" />
+          </motion.div>
+        </motion.div>
       </div>
     </>
   );

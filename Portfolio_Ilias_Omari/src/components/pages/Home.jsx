@@ -34,7 +34,7 @@ const Home = () => {
               className="ilias-image"
               initial={{ opacity: 0, x: -200 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ ease: "easeOut", duration: 0.5 }}
+              transition={{ ease: "easeInOut", duration: 0.7 }}
               viewport={{ once: true }}
               drag
               dragConstraints={{
@@ -55,11 +55,19 @@ const Home = () => {
               className="ilias-name"
               initial={{ opacity: 0, x: 200 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ ease: "easeOut", duration: 0.5 }}
+              transition={{ ease: "easeInOut", duration: 0.7 }}
               viewport={{ once: true }}
+              drag
+              dragConstraints={{
+                top: -5,
+                left: -5,
+                right: 5,
+                bottom: 5,
+              }}
             >
               <h1>Ilias Omari</h1>
             </motion.div>
+
             <motion.button
               onClick={handleClick}
               className="scroll"
@@ -77,7 +85,7 @@ const Home = () => {
               className="ilias-about"
               initial={{ opacity: 0, y: 200 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ ease: "easeOut", duration: 0.5 }}
+              transition={{ ease: "easeInOut", duration: 0.7 }}
               viewport={{ once: true }}
             >
               <div ref={ref} className="context">

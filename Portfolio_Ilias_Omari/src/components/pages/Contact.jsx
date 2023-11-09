@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import Ilias3d from "../../assets/ilias-3d.png";
 import "./skills-modules.css";
 import "./contact-modules.css";
+import { motion } from "framer-motion";
 
 export default function Contact() {
   const form = useRef();
@@ -68,9 +69,16 @@ export default function Contact() {
                 />
               </div>
               <div className="form-button">
-                <button className="btn" type="submit" value="Send">
+                <motion.button
+                  className="btn"
+                  type="submit"
+                  value="Send"
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                >
                   Submit
-                </button>
+                </motion.button>
               </div>
             </form>
           </div>

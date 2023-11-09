@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
+import { motion } from "framer-motion";
 
 const Jef = () => {
   return (
@@ -27,7 +28,14 @@ const Jef = () => {
       </div>
       <div className="button-redirect">
         <Link to={"/projects"}>
-          <button className="backbutton">Back to projects</button>
+          <motion.button
+            className="backbutton"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}
+          >
+            Back to projects
+          </motion.button>
         </Link>
       </div>
     </>
