@@ -4,7 +4,6 @@ import "./pages/projects-modules.css";
 import { motion } from "framer-motion";
 
 const Card = (props) => {
-  console.log(props);
   return (
     <motion.div
       className="project"
