@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./navbar-modules.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import logo from "../assets/logo-2.png";
+import Nav from "../assets/logo-2.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="header">
       <div className="logo">
-        <img src={logo} alt="Logo" />
+        <img src={Nav} alt="Logo" />
       </div>
 
       <div className="hamburger-menu">
@@ -50,23 +50,22 @@ const Navbar = () => {
         )}
       </div>
 
-
       <div className="navigation">
-      <ul>
-              <Link to={"/"}>
-                <p id="home-button-desktop">Home</p>
-              </Link>
-              <Link to={"/skills"}>
-                <p id="skills-button-desktop">Skills</p>
-              </Link>
-              <Link to={"/projects"}>
-                <p id="projects-button-desktop">Projects</p>
-              </Link>
+        <ul>
+          <Link to={"/"}>
+            <p id="home-button-desktop">Home</p>
+          </Link>
+          <Link to={"/skills"}>
+            <p id="skills-button-desktop">Skills</p>
+          </Link>
+          <Link to={"/projects"}>
+            <p id="projects-button-desktop">Projects</p>
+          </Link>
 
-              <Link to={"/contact"}>
-                <p id="contact-button-desktop">Contact</p>
-              </Link>
-            </ul>
+          <Link to={"/contact"}>
+            <p id="contact-button-desktop">Contact</p>
+          </Link>
+        </ul>
       </div>
     </div>
   );
