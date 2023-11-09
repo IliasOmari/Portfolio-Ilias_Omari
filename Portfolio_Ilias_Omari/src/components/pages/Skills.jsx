@@ -10,6 +10,7 @@ import Premiere from "../../assets/premiere-pro.svg";
 import AfterEffects from "../../assets/after-effects.svg";
 import MediaEncoder from "../../assets/media-encoder.svg";
 import VueJS from "../../assets/vuejs.svg";
+// import { motion } from "framer-motion";
 
 import Navbar from "../Navbar";
 

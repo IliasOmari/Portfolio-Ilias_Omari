@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import "./pages/projects-modules.css";
+import { motion } from "framer-motion";
 
 const Card = (props) => {
   console.log(props);
@@ -19,7 +20,13 @@ const Card = (props) => {
 
         <div className="button">
           <Link to={props.link}>
-            <button>Discover</button>
+            <motion.button
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              Discover
+            </motion.button>
           </Link>
         </div>
       </div>
