@@ -20,6 +20,7 @@
   height: 290px;
   border: 0.1rem solid #000000;
   box-shadow: 0.2rem 0.2rem 0 #000000;
+  background-color: white;
 }
 
 .projectInformation {

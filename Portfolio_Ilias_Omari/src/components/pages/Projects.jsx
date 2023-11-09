@@ -9,6 +9,7 @@ import PopArt from "../../assets/popart.png";
 import Motion from "../../assets/motion.png";
 import Kasteel from "../../assets/kasteel.png";
 
+
 const projects = [
   {
     id: "NFT",
