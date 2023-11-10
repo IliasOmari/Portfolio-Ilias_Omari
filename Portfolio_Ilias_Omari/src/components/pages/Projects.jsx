@@ -34,7 +34,7 @@ const projects = [
     img: JEF,
     subtitle: "Collab with JEF Festival",
     categorie: "Design UX/UI",
-    link: "/projects/jef-festival",
+    link: "https://xd.adobe.com/view/f71a3ccb-5b6f-44b1-98b1-68340019a25c-a249/",
   },
 
   {
