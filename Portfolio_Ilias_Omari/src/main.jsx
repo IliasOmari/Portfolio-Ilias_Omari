@@ -7,7 +7,6 @@ import Contact from "./components/pages/Contact.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Money from "./components/pages/Money.jsx";
 import Castle from "./components/pages/Castle.jsx";
-import Jef from "./components/pages/Jef.jsx";
 import Home from "./components/pages/Home.jsx";
 
 const router = createBrowserRouter([
@@ -34,11 +33,6 @@ const router = createBrowserRouter([
     path: "/projects/history-of-money",
     element: <Money />,
   },
-  {
-    path: "/projects/jef-festival",
-    element: <Jef />,
-  },
-
   {
     path: "/projects/castel-of-gaasbeek",
     element: <Castle />,

@@ -17,7 +17,18 @@ const Money = () => {
 
         <div className="project-info-text">
           <div className="info-text">
-            <p>Money</p>
+            <p>
+              <br></br>
+              Discover the fascinating journey through the evolution of money in
+              my latest motion graphics video. From primitive barter to modern
+              digital currency, the animation takes you on a visual journey
+              through the history of money.
+              <br></br> <br></br>
+              Expect captivating graphics and an immersive exploration of the
+              transformation money has undergone over the centuries. An
+              informative and visually engaging addition to the field of motion
+              graphics.
+            </p>
           </div>
         </div>
       </div>
