@@ -90,7 +90,7 @@
     display: block;
   }
   .form-image img {
-    width: 390px;
+    width: 400px;
   }
 
   .contact {
@@ -100,6 +100,7 @@
   .form_area {
     width: 500px;
     height: 500px;
+    margin-bottom: 20px;
   }
 
   .form_style {
