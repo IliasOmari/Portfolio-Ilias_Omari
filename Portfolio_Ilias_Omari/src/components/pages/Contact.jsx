@@ -1,16 +1,38 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Navbar from "../Navbar";
 import Ilias3d from "../../assets/ilias-3d.png";
 import "./skills-modules.css";
 import "./contact-modules.css";
 import { motion } from "framer-motion";
+import toast, { Toaster } from "react-hot-toast";
 
 export default function Contact() {
   const form = useRef();
+  const [inputs, setInputs] = useState({
+    user_name: "",
+    user_email: "",
+    user_msg: "",
+  });
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (
+      inputs.user_email == "" ||
+      inputs.user_name == "" ||
+      inputs.user_msg == ""
+    ) {
+      return toast.error("Fill in the mising fields!", {
+        duration: 4000,
+        position: "top-center",
+        style: {
+          backgroundColor: "#ffd310",
+          color: "black",
+        },
+      });
+    }
+    setInputs({ user_name: "", user_email: "", user_msg: "" });
 
     emailjs
       .sendForm(
@@ -20,11 +42,25 @@ export default function Contact() {
         "01B5uAmt9V_f-8sbX"
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
+          toast.success("Message has been!", {
+            duration: 4000,
+            position: "top-center",
+            style: {
+              backgroundColor: "#ffd310",
+              color: "black",
+            },
+          });
         },
         (error) => {
-          console.log(error.text);
+          toast.success(error.text, {
+            duration: 4000,
+            position: "top-center",
+            style: {
+              backgroundColor: "#ffd310",
+              color: "black",
+            },
+          });
         }
       );
   };
@@ -32,7 +68,7 @@ export default function Contact() {
   return (
     <>
       <Navbar />
-
+      <Toaster />
       <div className="title">
         <h1>Contact</h1>
       </div>
@@ -54,6 +90,13 @@ export default function Contact() {
                   className="form_style"
                   id="name"
                   name="user_name"
+                  value={inputs.user_name}
+                  onChange={(e) =>
+                    setInputs((prev) => ({
+                      ...prev,
+                      [e.target.name]: e.target.value,
+                    }))
+                  }
                 />
               </div>
 
@@ -64,6 +107,13 @@ export default function Contact() {
                   className="form_style"
                   id="email"
                   name="user_email"
+                  value={inputs.user_email}
+                  onChange={(e) =>
+                    setInputs((prev) => ({
+                      ...prev,
+                      [e.target.name]: e.target.value,
+                    }))
+                  }
                 />
               </div>
               <div className="form_group">
@@ -72,7 +122,14 @@ export default function Contact() {
                   type="text"
                   className="form_style-message"
                   id="text"
-                  name="message"
+                  name="user_msg"
+                  value={inputs.user_msg}
+                  onChange={(e) =>
+                    setInputs((prev) => ({
+                      ...prev,
+                      [e.target.name]: e.target.value,
+                    }))
+                  }
                 />
               </div>
               <div className="form-button">
