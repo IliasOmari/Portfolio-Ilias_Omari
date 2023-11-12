@@ -23,13 +23,14 @@ export default function Contact() {
       inputs.user_name == "" ||
       inputs.user_msg == ""
     ) {
-      return toast.error("Fill in the mising fields!", {
+      return toast.error(" Fill in the mising fields!", {
         duration: 4000,
         position: "top-center",
         style: {
           backgroundColor: "#ffd310",
           color: "black",
         },
+        icon: "❌",
       });
     }
     setInputs({ user_name: "", user_email: "", user_msg: "" });
@@ -43,13 +44,14 @@ export default function Contact() {
       )
       .then(
         () => {
-          toast.success("Message has been!", {
+          toast.success("Message has been successfully sent!", {
             duration: 4000,
             position: "top-center",
             style: {
               backgroundColor: "#ffd310",
               color: "black",
             },
+            icon: "😁",
           });
         },
         (error) => {
