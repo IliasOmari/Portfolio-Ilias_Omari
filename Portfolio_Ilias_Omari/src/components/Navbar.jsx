@@ -16,9 +16,11 @@ const Navbar = () => {
   };
   return (
     <div className="header">
-      <div className="logo">
-        <img src={Nav} alt="Logo" />
-      </div>
+      <Link to={"/"}>
+        <div className="logo">
+          <img src={Nav} alt="Logo" />
+        </div>
+      </Link>
 
       <div className="hamburger-menu">
         <div
