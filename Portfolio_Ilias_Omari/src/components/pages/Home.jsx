@@ -6,6 +6,7 @@ import { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   const ref = useRef(null);
@@ -122,7 +123,16 @@ const Home = () => {
             </motion.div>
 
             <div className="welcome-text">
-              <h1>Hi 👋🏻, I am </h1>
+              <h1 style={{ display: "flex", gap: "20px" }}>
+                👋🏻
+                <Typewriter
+                  options={{
+                    strings: [`Hi, I am`],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </h1>
             </div>
           </div>
         </>

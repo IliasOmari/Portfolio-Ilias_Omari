@@ -12,7 +12,10 @@ const Money = () => {
           <iframe
             id="video"
             src="https://www.youtube.com/embed/G9ww5N_DiVA?&autoplay=1"
-          ></iframe>
+            allowFullScreen
+          >
+            {" "}
+          </iframe>
         </div>
 
         <div className="project-info-text">
