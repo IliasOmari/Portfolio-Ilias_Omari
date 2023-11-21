@@ -26,10 +26,10 @@ const Skills = () => {
       <div className="skill-boxes">
         <motion.div
           className="skill-design"
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ ease: "easeInOut", duration: 0.7 }}
-          viewport={{ once: true }}
+          // viewport={{ once: true }}
         >
           <div className="skill-design-title">
             <h2>Design</h2>
@@ -53,10 +53,10 @@ const Skills = () => {
 
         <motion.div
           className="skill-code"
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ ease: "easeInOut", duration: 0.7 }}
-          viewport={{ once: true }}
+          // viewport={{ once: true }}
         >
           <div className="skill-code-title">
             <h2>Development</h2>
@@ -80,10 +80,10 @@ const Skills = () => {
 
         <motion.div
           className="skill-motion"
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ ease: "easeInOut", duration: 0.7 }}
-          viewport={{ once: true }}
+          // viewport={{ once: true }}
         >
           <div className="skill-motion-title">
             <h2>Motion</h2>
