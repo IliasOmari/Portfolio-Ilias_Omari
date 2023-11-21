@@ -88,7 +88,7 @@ const Home = () => {
               initial={{ opacity: 0, y: 200 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ ease: "easeInOut", duration: 0.7 }}
-              viewport={{ once: true }}
+              // viewport={{ once: true }}
             >
               <div ref={ref} className="context">
                 <div className="about-text">
