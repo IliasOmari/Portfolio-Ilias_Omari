@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Money from "./components/pages/Money.jsx";
 import Castle from "./components/pages/Castle.jsx";
 import Home from "./components/pages/Home.jsx";
+import Animations from "./components/pages/Animations.jsx";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
   {
     path: "/projects/castel-of-gaasbeek",
     element: <Castle />,
+  },
+
+  {
+    path: "/projects/animations",
+    element: <Animations />,
   },
 ]);
 

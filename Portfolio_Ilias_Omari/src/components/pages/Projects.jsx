@@ -12,15 +12,18 @@ import Quiz from "../../assets/quiz.png";
 import Animations from "../../assets/animation.png";
 import ThreeD from "../../assets/3d.png";
 import Login from "../../assets/login.png";
+import Github from "../../assets/github.png";
 
 const projects = [
   {
+    github: Github,
     id: "NFT",
     title: "NFT Universe",
     img: NftUniverse,
     subtitle: "School project",
     categorie: "Design & Development",
     link: "https://ehb-mct.github.io/web-2-frontend-22-23-IliasOmari/dist/index.html",
+    linkGithub: "https://github.com/EHB-MCT/web-2-frontend-22-23-IliasOmari",
   },
 
   {
@@ -33,21 +36,25 @@ const projects = [
   },
 
   {
+    github: Github,
     id: "JEF",
     title: "JEF Festival",
     img: JEF,
     subtitle: "Collab with JEF Festival",
     categorie: "Design UX/UI",
     link: "https://xd.adobe.com/view/f71a3ccb-5b6f-44b1-98b1-68340019a25c-a249/",
+    linkGithub: "https://github.com/EHB-MCT/full-projects-3-lobjim-productions",
   },
 
   {
+    github: Github,
     id: "POP",
     title: "Pop-Art",
     img: PopArt,
     subtitle: "personal project",
     categorie: "Design & Development",
     link: "https://pop-art.onrender.com/project/pop-art",
+    linkGithub: "https://github.com/EHB-MCT/frontend-werkstuk-22-23-IliasOmari",
   },
 
   {
@@ -69,39 +76,47 @@ const projects = [
   },
 
   {
+    github: Github,
     id: "PROTOTYPE1",
     title: "Quiz App",
     img: Quiz,
     subtitle: "Expert Lab",
     categorie: "Front-end",
-    link: "https://pop-art.onrender.com/project/pop-art",
+    link: "",
+    linkGithub: "https://github.com/IliasOmari/quiz-app",
   },
 
   {
+    github: Github,
     id: "PROTOTYPE2",
     title: "Animations",
     img: Animations,
     subtitle: "Expert Lab",
     categorie: "Front-end",
     link: "/projects/animations",
+    linkGithub: "https://github.com/IliasOmari/Portfolio-Ilias_Omari",
   },
 
   {
+    github: Github,
     id: "PROTOTYPE3",
     title: "3D Models",
     img: ThreeD,
-    subtitle: "Expert lab",
+    subtitle: "Expert Lab",
     categorie: "Front-end ",
-    link: "https://pop-art.onrender.com/project/pop-art",
+    link: "",
+    linkGithub: "https://github.com/IliasOmari/threejs",
   },
 
   {
+    github: Github,
     id: "PROTOTYPE4",
     title: "Login System",
     img: Login,
     subtitle: "Expert Lab",
     categorie: "Front-end & Back-end ",
-    link: "https://pop-art.onrender.com/project/pop-art",
+    link: "",
+    linkGithub: "https://github.com/IliasOmari/login",
   },
 ];
 

@@ -12,6 +12,13 @@ const Card = (props) => {
       transition={{ ease: "easeInOut", duration: 0.7 }}
       viewport={{ once: true }}
     >
+      <div className="linkGithub">
+        <div className="linkGithub-img">
+        <Link to={props.linkGithub}>
+          <img id="github" src={props.github} alt="" />
+          </Link>
+        </div>
+      </div>
       <div className="projectImg">
         <img src={props.img} />
       </div>
