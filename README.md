@@ -10,9 +10,6 @@ npm install
 
 ## Used packages
 
-```bash
-npm install react-router-dom
-```
 
 ```bash
 npm install react-router-dom
