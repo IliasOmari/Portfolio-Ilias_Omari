@@ -104,7 +104,7 @@ const projects = [
     img: ThreeD,
     subtitle: "Expert Lab",
     categorie: "Front-end ",
-    link: "",
+    link: "https://threedmodels.onrender.com/",
     linkGithub: "https://github.com/IliasOmari/threejs",
   },
 
