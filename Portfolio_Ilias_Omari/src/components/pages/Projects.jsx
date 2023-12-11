@@ -82,7 +82,7 @@ const projects = [
     img: Quiz,
     subtitle: "Expert Lab",
     categorie: "Front-end",
-    link: "",
+    link: "https://quizapp-9do6.onrender.com/",
     linkGithub: "https://github.com/IliasOmari/quiz-app",
   },
 
@@ -115,7 +115,7 @@ const projects = [
     img: Login,
     subtitle: "Expert Lab",
     categorie: "Front-end & Back-end ",
-    link: "",
+    link: "https://loginsystem-51fq.onrender.com/",
     linkGithub: "https://github.com/IliasOmari/login",
   },
 ];
