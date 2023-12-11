@@ -20,16 +20,13 @@ const Animations = () => {
         <div className="project-info-text">
           <div className="info-text">
             <p>
-              <br></br>
-              Discover the fascinating journey through the evolution of money in
-              my latest motion graphics video. From primitive barter to modern
-              digital currency, the animation takes you on a visual journey
-              through the history of money.
-              <br></br> <br></br>
-              Expect captivating graphics and an immersive exploration of the
-              transformation money has undergone over the centuries. An
-              informative and visually engaging addition to the field of motion
-              graphics.
+              <br></br>I would like to share my recently completed portfolio
+              with you, utilizing Framer Motion for animation. This addition
+              brings my work to life, with smooth transitions and dynamic
+              elements that engage the viewer.
+              <br /> <br /> <br /> I invite you to take a look at the result and
+              discover the creative value that the animations bring to my
+              project presentation. graphics.
             </p>
           </div>
         </div>
