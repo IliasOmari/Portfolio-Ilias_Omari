@@ -1,7 +1,6 @@
 # Portfolio of Ilias Omari
 
-Welcome to my creative space! I'm Ilias Omari, a versatile artist driven by curiosity and a passion for storytelling. Through a blend of graphic design, illustration, and multimedia projects, I create unique narratives that bridge tradition and innovation.
-Explore my portfolio for a glimpse into my evolving journey. Let's connect and collaborate to bring new stories to life!
+Hey there! 😊 I'm Ilias Omari, a web and UX/UI designer. Dive into my portfolio and explore the strength of my creative approach. Let's collaborate on impressive designs! 🚀 Curious? Check out my work, and let's talk about your project! 🌟
 
 ## Installation
 
@@ -11,9 +10,6 @@ npm install
 
 ## Used packages
 
-```bash
-npm install react-router-dom
-```
 
 ```bash
 npm install react-router-dom
