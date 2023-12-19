@@ -51,7 +51,7 @@ const projects = [
     id: "POP",
     title: "Pop-Art",
     img: PopArt,
-    subtitle: "personal project",
+    subtitle: "school project",
     categorie: "Design & Development",
     link: "https://pop-art.onrender.com/project/pop-art",
     linkGithub: "https://github.com/EHB-MCT/frontend-werkstuk-22-23-IliasOmari",
