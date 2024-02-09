@@ -8,7 +8,6 @@ import JEF from "../../assets/JEF.jpg";
 import PopArt from "../../assets/popart.png";
 import Motion from "../../assets/motion.png";
 import Kasteel from "../../assets/kasteel.png";
-import Quiz from "../../assets/quiz.png";
 import Animations from "../../assets/animation.png";
 import ThreeD from "../../assets/3d.png";
 import Login from "../../assets/login.png";
@@ -51,7 +50,7 @@ const projects = [
     id: "POP",
     title: "Pop-Art",
     img: PopArt,
-    subtitle: "school project",
+    subtitle: "School project",
     categorie: "Design & Development",
     link: "https://pop-art.onrender.com/project/pop-art",
     linkGithub: "https://github.com/EHB-MCT/frontend-werkstuk-22-23-IliasOmari",
@@ -73,17 +72,6 @@ const projects = [
     subtitle: "School project",
     categorie: "Drones & Motion ",
     link: "/projects/castel-of-gaasbeek",
-  },
-
-  {
-    github: Github,
-    id: "PROTOTYPE1",
-    title: "Quiz App",
-    img: Quiz,
-    subtitle: "Expert Lab",
-    categorie: "Front-end",
-    link: "https://quizapp-9do6.onrender.com/",
-    linkGithub: "https://github.com/IliasOmari/quiz-app",
   },
 
   {
