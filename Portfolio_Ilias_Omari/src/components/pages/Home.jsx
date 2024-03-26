@@ -127,7 +127,7 @@ const Home = () => {
                 👋🏻
                 <Typewriter
                   options={{
-                    strings: [`Hello There !`],
+                    strings: [`Hello, I am`],
                     autoStart: true,
                     loop: true,
                   }}
