@@ -2,14 +2,16 @@ import "./skills-modules.css";
 import Illustrator from "../../assets/adobe-illustrator.svg";
 import Photoshop from "../../assets/photoshop.svg";
 import Adobe from "../../assets/adobe-xd.svg";
-import Indesign from "../../assets/adobe-indesign.svg";
+// import Indesign from "../../assets/adobe-indesign.svg";
+import Figma from "../../assets/figma.svg";
 import Javascript from "../../assets/javascript.svg";
 import ReactJS from "../../assets/react.svg";
-import Kotlin from "../../assets/kotlin.svg";
+import Html5 from "../../assets/html.svg";
+import Css3 from "../../assets/css.svg";
 import Premiere from "../../assets/premiere-pro.svg";
 import AfterEffects from "../../assets/after-effects.svg";
 import MediaEncoder from "../../assets/media-encoder.svg";
-import VueJS from "../../assets/vuejs.svg";
+
 import { motion } from "framer-motion";
 
 import Navbar from "../Navbar";
@@ -47,7 +49,8 @@ const Skills = () => {
             <img id="illustrator" src={Illustrator} alt="Adobe Illustrator" />
             <img id="photoshop" src={Photoshop} alt="Adobe Illustrator" />
             <img id="xd" src={Adobe} alt="Adobe XD" />
-            <img id="indesign" src={Indesign} alt="Indesign" />
+            <img id="figma" src={Figma} alt="Figma" />
+            {/* <img id="indesign" src={Indesign} alt="Indesign" /> */}
           </motion.div>
         </motion.div>
 
@@ -71,10 +74,10 @@ const Skills = () => {
               ease: [0, 0.71, 0.2, 1.01],
             }}
           >
+            <img id="html" src={Html5} alt="HTML5" />
+            <img id="css" src={Css3} alt="CSS3" />
             <img id="javascript" src={Javascript} alt="Javascript" />
             <img id="react" src={ReactJS} alt="ReactJS" />
-            <img id="kotlin" src={Kotlin} alt="Kotlin" />
-            <img id="vue" src={VueJS} alt="VueJS" />
           </motion.div>
         </motion.div>
 
