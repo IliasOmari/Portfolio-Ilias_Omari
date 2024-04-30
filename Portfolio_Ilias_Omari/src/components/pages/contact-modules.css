@@ -11,8 +11,9 @@
   flex-direction: column;
   border: 1px solid black;
   width: 350px;
-  box-shadow: 0.2rem 0.2rem 0 #000000;
+  box-shadow: 0.3rem 0.3rem 0 #000000;
   background-color: white;
+  border-radius: 10px;
 }
 
 .sub_title {
@@ -33,7 +34,6 @@
   box-shadow: 3px 4px 0px 1px #000;
   width: 290px;
   padding: 12px 10px;
-  border-radius: 4px;
   font-size: 15px;
 }
 
@@ -44,7 +44,7 @@
   width: 290px;
   height: 63px;
   padding: 12px 10px;
-  border-radius: 4px;
+
   font-size: 15px;
 }
 
@@ -63,12 +63,11 @@
   font-size: 14px;
   background: #e7275c;
   border: 0.1rem solid #000000;
-  border-radius: 0.4rem;
   font-weight: 800;
   box-shadow: 0.2rem 0.2rem 0 #000000;
   color: white;
   text-decoration: none;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-weight: bolder;
   font-size: 14px;
 }

@@ -14,14 +14,17 @@
 
 .projectImg img {
   width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .project {
   width: 350px;
   height: 290px;
   border: 0.1rem solid #000000;
-  box-shadow: 0.2rem 0.2rem 0 #000000;
+  box-shadow: 0.3rem 0.3rem 0 #000000;
   background-color: white;
+  border-radius: 10px;
 }
 
 .projectInformation {
@@ -37,7 +40,6 @@
   margin-right: 25px;
   background-color: #e7275c;
   border: 0.1rem solid #000000;
-  border-radius: 0.4rem;
   box-shadow: 0.2rem 0.2rem 0 #000000;
   cursor: pointer;
   padding: 10px;
