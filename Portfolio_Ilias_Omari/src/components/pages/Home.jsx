@@ -109,7 +109,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <Link to={`https://cv-ilias-omari.tiiny.site`} target="_blank">
+                <Link to={`https://cv-ilias-2024.tiiny.site`} target="_blank">
                   <motion.button
                     className="download"
                     whileHover={{ scale: 1.2 }}
