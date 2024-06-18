@@ -27,8 +27,8 @@ export default function Contact() {
         duration: 4000,
         position: "top-center",
         style: {
-          backgroundColor: "#ffd310",
-          color: "black",
+          backgroundColor: "#d43b84",
+          color: "white",
         },
         icon: "❌",
       });
