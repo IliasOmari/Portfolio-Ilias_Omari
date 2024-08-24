@@ -99,17 +99,17 @@ const Home = () => {
 
                   <p>
                     Welcome to my portfolio! I{"'"}m Ilias, a Multimedia and
-                    Creative Technologies student, specializing in UX/UI design
-                    and development.
+                    Creative Technologies graduate with specializations in UX/UI
+                    design and frontend development.
                     <br /> <br />
-                    Inside my portfolio, I invite you to explore my passion for
-                    crafting seamless, visually stunning digital experiences.
-                    Let
-                    {"'"}s collaborate and bring your digital dreams to life.
+                    Take a journey through my portfolio to see how I bring ideas
+                    to life through intuitive and visually striking digital
+                    solutions.Let{"'"}s collaborate and bring your digital
+                    dreams to life.
                   </p>
                 </div>
 
-                <Link to={`https://cv-ilias-2024.tiiny.site`} target="_blank">
+                <Link to={`https://cv-ilias-24.tiiny.site/`} target="_blank">
                   <motion.button
                     className="download"
                     whileHover={{ scale: 1.2 }}
